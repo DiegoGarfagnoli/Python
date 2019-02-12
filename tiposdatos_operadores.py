@@ -1,4 +1,4 @@
-   ' tipos de datos
+' tipos de datos
 
 e = 5  'INT 
 e = 5L 'LONG
