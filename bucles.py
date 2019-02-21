@@ -169,10 +169,28 @@ CodificacionV2 = {'a':'e',
                   'Ú':'Ú'} 
 
 
-Mensaje = 'Hola muy buenos días. Macri gato.'
+Mensaje = 'Hola muy buenos dias. Macri gato.'
+Mensaje_Codificado = 'Gike wun duayiz boez. Wejto heri.'
+Mensaje_Decodificado = ''
+resultado = [' ']
 
-for letra in Mensaje:
-    print letra + '  ' + Codificacion[letra] + '  ' + CodificacionV2[letra]
+
+
+def codifica_decodifica(Mensaje_Codificado, resultado):
+    
+    for letra in Mensaje_Codificado:
+        resultado[0] = resultado[0] + CodificacionV2[letra]
+
+    print resultado
+    
+
+
+codifica_decodifica(Mensaje_Codificado, resultado)
+
+
+
+
+
     
 
     
